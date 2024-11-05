@@ -1,0 +1,551 @@
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-05 05:48:28] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-05 05:48:28] [class-ss-setup-task.php:33] Creating archive directory: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/
+[2024-11-05 05:48:28] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/wordpress/
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-05 05:48:28] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-05 05:48:28] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-05 05:48:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/
+[2024-11-05 05:48:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-05 05:48:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1acc3e4e-0OD8w0.tmp
+[2024-11-05 05:48:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/?simply_static_page=1
+[2024-11-05 05:48:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/?simply_static_page=1
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 251763 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1acc3e4e-0OD8w0.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/index.html
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 43 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:c047706411ef273183c8513907ac5debddf5684d===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-05 05:48:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-05 05:48:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-05 05:48:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 42
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1add600e-Inx1Kw.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress?simply_static_page=2
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress?simply_static_page=2
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 256 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/wordpress/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/blog/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/blog/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/author/demo/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/author/demo/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/2024/11/05/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/2024/11/05/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/2024/11/05/hello-world/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/2024/11/05/hello-world/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-includes/js/jquery/jquery.min.js
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1add8d2e-xte6wa.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-includes/js/jquery/jquery.min.js?simply_static_page=7
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-includes/js/jquery/jquery.min.js?simply_static_page=7
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/jquery/jquery.min.js
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1add8d2e-xte6wa.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-includes/js/jquery/jquery.min.js
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1addab6b-mxAHJz.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=8
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=8
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1addab6b-mxAHJz.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-includes/js/dist/hooks.min.js
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1addc3fc-1G0nit.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-includes/js/dist/hooks.min.js?simply_static_page=9
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-includes/js/dist/hooks.min.js?simply_static_page=9
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/hooks.min.js
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1addc3fc-1G0nit.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-includes/js/dist/hooks.min.js
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-includes/js/dist/i18n.min.js
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1addda71-9ricU2.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-includes/js/dist/i18n.min.js?simply_static_page=10
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-includes/js/dist/i18n.min.js?simply_static_page=10
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/i18n.min.js
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1addda71-9ricU2.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-includes/js/dist/i18n.min.js
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/build/scripts/index.js
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1addf0da-wHrBYR.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/build/scripts/index.js?simply_static_page=11
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/build/scripts/index.js?simply_static_page=11
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 41257 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/build/scripts/index.js
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1addf0da-wHrBYR.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/build/scripts/index.js
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:2bbfe59f3ef34ced51fcba868bd2aba6d5e96b2f===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/build/frontend/index.js
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ade098d-9NxL9h.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/build/frontend/index.js?simply_static_page=12
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/build/frontend/index.js?simply_static_page=12
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 68860 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/build/frontend/index.js
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ade098d-9NxL9h.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/build/frontend/index.js
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:77d10b4664d2f822995804f764e5630b1d74e6d4===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/feed/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/feed/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/comments/feed/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/comments/feed/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/build/block-library/style.css
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ade33cc-jubi9j.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/build/block-library/style.css?simply_static_page=15
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/build/block-library/style.css?simply_static_page=15
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 187269 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/build/block-library/style.css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ade33cc-jubi9j.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/build/block-library/style.css
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:d07ab5eb87135258bb531a82f203120dd1a56e55===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-includes/css/dist/block-library/style.min.css
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ade5cd5-GOcy5C.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=16
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=16
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/css/dist/block-library/style.min.css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ade5cd5-GOcy5C.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-includes/css/dist/block-library/style.min.css
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/build/third-party-blocks/style.css
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ade7e8d-GUf6IZ.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/build/third-party-blocks/style.css?simply_static_page=17
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/build/third-party-blocks/style.css?simply_static_page=17
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 29110 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/build/third-party-blocks/style.css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ade7e8d-GUf6IZ.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/build/third-party-blocks/style.css
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:d176ca88befa452c9395e7f153b35427b0ac8d60===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/themes/kubio//resources/theme/fse-base-style.css
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ade9b46-bJ4IOG.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/themes/kubio//resources/theme/fse-base-style.css?simply_static_page=18
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/themes/kubio//resources/theme/fse-base-style.css?simply_static_page=18
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 4203 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/kubio//resources/theme/fse-base-style.css
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ade9b46-bJ4IOG.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/themes/kubio//resources/theme/fse-base-style.css
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:5dff7c0165a42acb5f687c6e7e09287a2d294057===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/wp-json/
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/wp-json/
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/wp-json/wp/v2/pages/8
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/wp-json/wp/v2/pages/8
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/xmlrpc.php
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/xmlrpc.php
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/index.php/wp-json/oembed/1.0/embed
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress/index.php/wp-json/oembed/1.0/embed
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1adece64-LoM6ce.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png?simply_static_page=23
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png?simply_static_page=23
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 28083 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1adece64-LoM6ce.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:eb880996d91b79da0d679394d0f1f31012b91c15===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1adee767-bfHUZz.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png?simply_static_page=24
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png?simply_static_page=24
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 396896 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1adee767-bfHUZz.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:bf12a6f76030b97ee7cd369fa206532b78bc6c4b===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1adf1381-d1P8x2.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png?simply_static_page=25
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png?simply_static_page=25
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 11005 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1adf1381-d1P8x2.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:30a6c77769296cba4486246234eaf12fa9e14ec1===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 43
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1adf2db0-UgFSKr.tmp
+[2024-11-05 05:48:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png?simply_static_page=26
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png?simply_static_page=26
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:103] Filesize: 42767 bytes
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png
+[2024-11-05 05:48:29] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1adf2db0-UgFSKr.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:29] [class-ss-page.php:119] Checking Content Identical:ddf786aa340ebea16dd7f82a5fbaf91da4c50ca3===. Value: FALSE
+[2024-11-05 05:48:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png
+[2024-11-05 05:48:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae00308-kRHFGI.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png?simply_static_page=27
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png?simply_static_page=27
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 7268 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae00308-kRHFGI.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:e401a8c0ac4d46ff75a701fd64d4c175d271258e===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae01ae4-SiyXXV.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png?simply_static_page=28
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png?simply_static_page=28
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 27792 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae01ae4-SiyXXV.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:f961034789c2308919bd40a23412f8db20b8bd70===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae035f0-PJ4cQS.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png?simply_static_page=29
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png?simply_static_page=29
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 61860 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae035f0-PJ4cQS.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:73c78fab639e5ecffa0b87cebc96800d83def916===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae04d5c-VPfAcr.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png?simply_static_page=30
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png?simply_static_page=30
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 174634 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae04d5c-VPfAcr.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:6dc66153a33ff38f7c39b5a3d0a1ac6470c3b1a8===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae077cf-Rs6xxp.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png?simply_static_page=31
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png?simply_static_page=31
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 263201 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae077cf-Rs6xxp.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:89bb3ba1e70ab20f3fe464021d5268f5843d3b2b===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae09b3b-emBMvc.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png?simply_static_page=32
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png?simply_static_page=32
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 35762 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae09b3b-emBMvc.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:f376f1fb4dc3124b513358f7cf46dd686296ba1b===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae0b390-6vuGbI.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png?simply_static_page=33
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png?simply_static_page=33
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 354573 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae0b390-6vuGbI.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:f2fb20d1bde958b776549c524a435af941e6e9f5===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae0db8a-UA0o63.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png?simply_static_page=34
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png?simply_static_page=34
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 91 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae0db8a-UA0o63.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:ae46816aef16a36d68bdc380cb049cf95123e2c1===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae0f384-STSBb2.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png?simply_static_page=35
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png?simply_static_page=35
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 119 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae0f384-STSBb2.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:870bb9d46e06419af489f8b2425425b808ea1cab===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae10844-WmwgxZ.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png?simply_static_page=36
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png?simply_static_page=36
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 102 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae10844-WmwgxZ.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:766629e53408fef8d3d07fb717a39607b590488d===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae11dad-ieX5ov.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png?simply_static_page=37
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png?simply_static_page=37
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 226532 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae11dad-ieX5ov.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:143afd8b51e41c1be4753a73d7a0dc377b33423c===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae13f73-XjQKUQ.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png?simply_static_page=38
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png?simply_static_page=38
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 104067 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae13f73-XjQKUQ.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:c98ba709ccdf35019687c728db72a800063a874d===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae15acd-KP8FAv.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png?simply_static_page=39
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png?simply_static_page=39
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 99649 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae15acd-KP8FAv.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:78b55b9b1e4839126f8389b657d26001d1ac84f6===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae1778d-VppShn.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png?simply_static_page=40
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png?simply_static_page=40
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 1906146 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae1778d-VppShn.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:abe16768221c50db87c8c59007b425633efd1635===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae201f4-uDQ3x2.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png?simply_static_page=41
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png?simply_static_page=41
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 177098 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae201f4-uDQ3x2.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:434f25a5d9b77671cfaa6a3fdcd75c15c737d525===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae28c94-RNu8Jo.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png?simply_static_page=42
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png?simply_static_page=42
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 200720 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae28c94-RNu8Jo.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:5bd4d3dc52bd85c7ca6c1d7a40139367c09664fa===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png
+[2024-11-05 05:48:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 43
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae2b912-wmHXUa.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png?simply_static_page=43
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png?simply_static_page=43
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 167399 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae2b912-wmHXUa.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:57743d1bfd5ba26be76b251873619cc44508ddd1===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 43 pages/files
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-05 05:48:30] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 0
+[2024-11-05 05:48:30] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 43 of 43 pages/files
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-05 05:48:30] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /Applications/XAMPP/xamppfiles/temp/6729b1ae2ef85-Mr84r0.tmp
+[2024-11-05 05:48:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress/1730785711?simply_static_page=0
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress/1730785711?simply_static_page=0
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:103] Filesize: 1027 bytes
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=utf-8
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-05 05:48:30] [class-ss-url-fetcher.php:143] Renaming temp file from /Applications/XAMPP/xamppfiles/temp/6729b1ae2ef85-Mr84r0.tmp to /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708/404/index.html
+[2024-11-05 05:48:30] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-05 05:48:30] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-05 05:48:30] [class-ss-page.php:119] Checking Content Identical:b13cbff183f1094d97a5c360ab8a2416fe41e5e2===. Value: FALSE
+[2024-11-05 05:48:30] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-11-05 05:48:30] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-11-05 05:48:30] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-11-05 05:48:30] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1730785708.zip">Click here to download</a>
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-05 05:48:30] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-05 05:48:30] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-05 05:48:30] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:02
